@@ -17,7 +17,19 @@
         "source": "https://github.com/yosypandriyash/doorkeeper"
     },
     "autoload": {
-        "files": ["lib/*"]
+        "files": [
+            "lib/class_traits/no_set.php",
+            "lib/file_handler/file_handler_factory.php",
+            "lib/file_handler/file_handler.php",
+            "lib/file_handler/file_types.php",
+            "lib/http_client/http_client.php",
+            "lib/line_counter/line_counter.php",
+            "lib/php_helpers/extra_server_vars.php",
+            "lib/php_helpers/php_helpers.php",
+            "lib/php_helpers/superglobals.php",
+            "lib/remote_image_server/remote_image_server.php",
+            "lib/world_facts/world_facts.php"
+        ]
     },
     "require": {
         
