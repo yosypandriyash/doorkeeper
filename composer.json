@@ -1,0 +1,25 @@
+{
+    "name": "yosypandriyash/doorkeeper",
+    "type": "library",
+    "description": "Stream media via HTTP on php applications",
+    "keywords": ["empty"],
+    "homepage": "https://github.com/yosypandriyash/doorkeeper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosyp",
+            "homepage": "http://yosyp.andriyash.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yosypandriyash/doorkeeper/issues",
+        "source": "https://github.com/yosypandriyash/doorkeeper"
+    },
+    "autoload": {
+        "files": ["lib/*"]
+    },
+    "require": {
+        
+    }
+}
