@@ -48,7 +48,7 @@ class file_handler
     private $sg; // Superglobals object
     private $helpers; // PHP Helper functions
 
-    public function __construct(superglobals $superglobals = null, php_helpers $php_helpers, file_types $file_types = null)
+    public function __construct($superglobals = null, $php_helpers = null, $file_types = null)
     {
         $this->ft = $file_types;
         $this->sg = $superglobals;
